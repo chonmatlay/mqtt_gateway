@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/aracoon/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/aracoon/Projects/esp/mqtt_config/build/bootloader",
+    "config_file":        "/home/aracoon/Projects/esp/mqtt_config/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dev-1660-g7d7521367-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/aracoon/esp/esp-idf/components/efuse/Kconfig;/home/aracoon/esp/esp-idf/components/esp32/Kconfig;/home/aracoon/esp/esp-idf/components/esp_common/Kconfig;/home/aracoon/esp/esp-idf/components/log/Kconfig;/home/aracoon/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/aracoon/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/aracoon/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/aracoon/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/aracoon/esp/esp-idf/components/bootloader", "/home/aracoon/esp/esp-idf/components/bootloader_support", "/home/aracoon/esp/esp-idf/components/efuse", "/home/aracoon/esp/esp-idf/components/esp32", "/home/aracoon/esp/esp-idf/components/esp_common", "/home/aracoon/esp/esp-idf/components/esp_rom", "/home/aracoon/esp/esp-idf/components/esptool_py", "/home/aracoon/esp/esp-idf/components/log", "/home/aracoon/esp/esp-idf/components/bootloader/subproject/main", "/home/aracoon/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/aracoon/esp/esp-idf/components/partition_table", "/home/aracoon/esp/esp-idf/components/soc", "/home/aracoon/esp/esp-idf/components/spi_flash", "/home/aracoon/esp/esp-idf/components/xtensa", "" ]
+}
